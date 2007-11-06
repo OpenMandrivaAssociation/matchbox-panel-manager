@@ -1,18 +1,18 @@
 %define name 	matchbox-panel-manager
 %define version 0.1
-%define release 1mdk
+%define release %mkrel 2
 
 Summary: 	Manager for the Matchbox Desktop panel
 Name: 		%name
 Version: 	%version
 Release: 	%release
-Url: 		http://matchbox.handhelds.org/
-License: 	GPL
+Url: 		http://matchbox-project.org
+License: 	GPLv2+
 Group: 		Graphical desktop/Other
-Source: 	ftp://ftp.handhelds.org/matchbox/sources/matchbox-panel-manager/%version/%{name}-%{version}.tar.bz2
+Source: 	http://matchbox-project.org/sources/%version/%{name}-%{version}.tar.bz2
 
 Buildroot: 	%_tmppath/%name-%version-buildroot
-BuildRequires:	matchbox-devel gtk2-devel
+BuildRequires:	libmatchbox-devel gtk2-devel
 Requires:	matchbox-panel
 
 %description
@@ -38,4 +38,3 @@ rm -rf $RPM_BUILD_ROOT
 %_bindir/%name
 %_datadir/applications/*
 %_datadir/pixmaps/*
-
