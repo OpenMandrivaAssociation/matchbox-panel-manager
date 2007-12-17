@@ -11,7 +11,6 @@ License: 	GPLv2+
 Group: 		Graphical desktop/Other
 Source: 	http://matchbox-project.org/sources/%version/%{name}-%{version}.tar.bz2
 
-Buildroot: 	%_tmppath/%name-%version-buildroot
 BuildRequires:	libmatchbox-devel gtk2-devel
 Requires:	matchbox-panel
 
