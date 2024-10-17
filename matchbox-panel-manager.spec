@@ -6,7 +6,7 @@ Summary: 	Manager for the Matchbox Desktop panel
 Name: 		%name
 Version: 	%version
 Release: 	%release
-Url: 		http://matchbox-project.org
+Url: 		https://matchbox-project.org
 License: 	GPLv2+
 Group: 		Graphical desktop/Other
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
