@@ -1,6 +1,6 @@
 %define name 	matchbox-panel-manager
 %define version 0.1
-%define release %mkrel 6
+%define release 7
 
 Summary: 	Manager for the Matchbox Desktop panel
 Name: 		%name
